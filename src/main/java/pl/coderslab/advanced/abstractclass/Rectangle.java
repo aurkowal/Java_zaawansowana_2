@@ -1,8 +1,8 @@
 package pl.coderslab.advanced.abstractclass;
 
 public class Rectangle extends Shape {
-    private double a;
-    private double b;
+    protected double a;
+    protected double b;
 
     public Rectangle(double a, double b) {
         this.a = a;

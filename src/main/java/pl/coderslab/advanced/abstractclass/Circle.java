@@ -1,8 +1,9 @@
 package pl.coderslab.advanced.abstractclass;
 
+import static java.lang.Math.PI;
+
 public class Circle extends Shape {
     private double r;
-    public double PI = Math.PI;
 
     public Circle(int r) {
         this.r = r;
